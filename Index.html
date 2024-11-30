@@ -3,75 +3,57 @@
     <head>
         <title>Big Time Rush</title>
         <meta name = "description" content="This the description">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="main-header">
+            <nav class="nav main-nav">
                 <ul>
                     <li><a href="Index.html">Home</a></li>
                     <li><a href="Store.html">Store</a></li>
                     <li><a href="About.html">About</a></li>
                 </ul>
             </nav>
-            <hr>
-            <h1>Big Time Rush</h1>
-            <button type="button">Get our Latest Album</button>
+            <h1 class="bandname bandname-large">Big Time Rush</h1>
+            <div class="container">
+            <button class="btn btnheader" type="button">Get our Latest Album</button>
             <br>
             <br>
-            <!--TODO FIND SUITABLE BACKGROUND IMAGE-->
-            <button type="button">&#9658;</button>
+            <button class = "btn btnheader btnplay"type="button">&#9658;</button>
+            </div>
         </header>
-        <section>
-            <h2>Tours</h2>
+        <section class="content-section container">
+            <h2 class="section-header">Tours</h2>
             <div>
-                <div>
-                    <strong>Jul 16</strong> 
-                    &lt;&gt;
-                    <span>Montevideo, Uruguay</span>
-                    &lt;&gt;
-                    <span>Antel Arena</span>
-                    &lt;&gt;
-                    <button type="button">Buy Tickets</button> 
-                    <hr>
+                <div class="tourrow">
+                    <span class="touritem tourdate">Jul 16</span> 
+                    <span class="touritem tourcity">Montevideo, Uruguay</span>
+                    <span class="touritem tourarena">Antel Arena</span>
+                    <button class="btn touritem tourbtn" type="button">Buy Tickets</button> 
                 </div>
-                <div>
-                    <strong>Jul 30</strong> 
-                    &lt;&gt;
-                    <span>Bogota, Colombia</span>
-                    &lt;&gt;
-                    <span>Movistar, Stadium</span>
-                    &lt;&gt;
-                    <button type="button">Buy Tickets</button> 
-                    <hr>
+                <div class="tourrow">
+                    <span class="touritem tourdate">Jul 30</span> 
+                    <span class="touritem tourcity">Bogota, Colombia</span>
+                    <span class="touritem tourarena">Movistar, Stadium</span>
+                    <button class="btn touritem tourbtn" type="button">Buy Tickets</button> 
                 </div>
-                <div>
-                    <strong>Aug 5</strong> 
-                    &lt;&gt;
-                    <span>Hartford, Connecticut</span>
-                    &lt;&gt;
-                    <span>Random Place</span>
-                    &lt;&gt;
-                    <button type="button">Buy Tickets</button> 
-                    <hr>
+                <div class="tourrow">
+                    <span class="touritem tourdate">Aug 5</span> 
+                    <span class="touritem tourcity">Hartford, Connecticut</span>
+                    <span class="touritem tourarena">Random Place</span>
+                    <button class="btn touritem tourbtn" type="button">Buy Tickets</button> 
                 </div>
-                <div>
-                    <strong>Sept 22</strong> 
-                    &lt;&gt;
-                    <span>Tokyo, Japan</span>
-                    &lt;&gt;
-                    <span>Tokyo Arena</span>
-                    &lt;&gt;
-                    <button type="button">Buy Tickets</button> 
-                    <hr>
+                <div class="tourrow">
+                    <span class="touritem tourdate">Sept 22</span> 
+                    <span class="touritem tourcity">Tokyo, Japan</span>
+                    <span class="touritem tourarena">Tokyo Arena</span>
+                    <button class="btn touritem tourbtn" type="button">Buy Tickets</button> 
                 </div>
-                <div>
-                    <strong>Sept 30</strong> 
-                    &lt;&gt;
-                    <span>London, England</span>
-                    &lt;&gt;
-                    <span>London Bridge</span>
-                    &lt;&gt;
-                    <button type="button">Buy Tickets</button> 
+                <div class="tourrow">
+                    <span class="touritem tourdate">Sept 30</span> 
+                    <span class="touritem tourcity">London, England</span>
+                    <span class="touritem tourarena">London Bridge</span>
+                    <button class="btn touritem tourbtn" type="button">Buy Tickets</button> 
                 </div>
             </div>
         </section>

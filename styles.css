@@ -119,3 +119,70 @@ html, body{
 .footernav img{
     width: 40px;
 }
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btnheader{
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btnheader :hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btnplay{
+    display: block;
+    margin: 0 auto;
+    color: #2D9CDB;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.tourrow{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tourrow:last-child{
+    border-bottom: none;
+}
+
+.touritem{
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tourdate{
+    color: #555;
+    font-weight: bold;
+    width: 11%;
+}
+
+.tourcity{
+    width: 24%;
+}
+
+.tourarena{
+    width: 42%;
+}
+
+.tourbtn{
+    max-width: 19%;
+}
