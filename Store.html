@@ -3,112 +3,123 @@
     <head>
         <title>Big Time Rush || Store</title>
         <meta name = "description" content="This the description">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="main-header">
+            <nav class="nav main-nav">
                 <ul>
                     <li><a href="Index.html">Home</a></li>
                     <li><a href="Store.html">Store</a></li>
                     <li><a href="About.html">About</a></li>
                 </ul>
             </nav>
-            <hr>
-            <h1>Big Time Rush</h1>
+            <h1 class="bandname bandname-large">Big Time Rush</h1>
         </header>
-        <section>
-            <h2>Music</h2>
-            <div>
-                <div>
-                    <strong>Album 1</strong>
+        <section class="container">
+            <h2 class="section-header">Music</h2>
+            <div class="shop-items">
+                <div class="shopitem">
+                    <span class="shopitem-title">Album 1</span>
+                    <img class="shopitem-image" src="Images/album1.jpg" width="100px">
+                    <div class="shopitem-details">
+                        <span class="shopitem-price">$12.99</span>
+                        <button class="btn btnprimary btnshopitem" role="button">Add to Cart</button>
+                    </div>
                 </div>
-                <div>
-                    <span>$12.99</span>
-                    <button role="button">Add to Cart</button>
+                <div class="shopitem">
+                    <span class="shopitem-title">Album 2</span>
+                    <img class="shopitem-image" src="Images/album2.jpg" width="100px">
+                    <div class="shopitem-details">
+                        <span class="shopitem-price">$10.99</span>
+                        <button class="btn btnprimary btnshopitem" role="button">Add to Cart</button>
+                    </div>
                 </div>
-                <div>
-                    <strong>Album 2</strong>
+                <div class="shopitem">
+                    <span class="shopitem-title">Album 3</span>
+                    <img class="shopitem-image" src="Images/album3.jpg" width="100px">
+                    <div class="shopitem-details">
+                        <span class="shopitem-price">$16.99</span>
+                        <button class="btn btnprimary btnshopitem" role="button">Add to Cart</button>
+                    </div>
                 </div>
-                <div>
-                    <span>$10.99</span>
-                    <button role="button">Add to Cart</button>
-                </div>
-                <div>
-                    <strong>Album 3</strong>
-                </div>
-                <div>
-                    <span>$16.99</span>
-                    <button role="button">Add to Cart</button>
-                </div>
-                <div>
-                    <strong>Album 4</strong>
-                </div>
-                <div>
-                    <span>$35.99</span>
-                    <button role="button">Add to Cart</button>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h2>Merch</h2>
-            <div>
-                <div>
-                    <strong>Shirt</strong>
-                </div>
-                <div>
-                    <span>$30.99</span>
-                    <button role="button">Add to Cart</button>
-                </div>
-                <div>
-                    <strong>Carlo's Helmet</strong>
-                </div>
-                <div>
-                    <span>$60.99</span>
-                    <button role="button">Add to Cart</button>
+                <div class="shopitem">
+                    <span class="shopitem-title">Album 4</span>
+                    <img class="shopitem-image" src="Images/album4.jpg" width="100px">
+                    <div class="shopitem-details">
+                        <span class="shopitem-price">$35.99</span>
+                        <button class="btn btnprimary btnshopitem" role="button">Add to Cart</button>
+                    </div>
                 </div>
             </div>
         </section>
-        <section>
-            <h2>Cart</h2>
-            <div>
-                <strong>Item</strong>
-                &lt;&gt;
-                <strong>Price</strong>
-                &lt;&gt;S
-                <strong>Quantity</strong>
+        <section class="container">
+            <h2 class="section-header">Merch</h2>
+            <div class="shop-items">
+                <div class="shopitem">
+                    <span class="shopitem-title">Shirt</span>
+                    <img class="shopitem-image" src="Images/btrshirt.jpg" width="100px">
+                    <div class="shopitem-details">
+                        <span class="shopitem-price">$30.99</span>
+                        <button class="btn btnprimary btnshopitem" role="button">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="shopitem">
+                        <span class="shopitem-title">Carlo's Helmet</span>
+                        <img class="shopitem-image" src="Images/carloshelmet.jpg" width="100px">
+                    <div class="shopitem-details">
+                        <span class="shopitem-price">$60.99</span>
+                        <button class="btn btnprimary btnshopitem" role="button">Add to Cart</button>
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="Images/album1.jpg" width="100">
-                <span>Album</span>
-                &lt;&gt;
-                <span>$12.99</span>
-                &lt;&gt;
-                <input type="number" value="1">
-                <button role="button">Remove</button>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">Cart</h2>
+            <div class="cartrow">
+                <span class="cartitem cartheader cartcolumn">Item</span>
+                <span class="cartitem cartheader cartcolumn">Price</span>
+                <span class="cartitem cartheader cartcolumn">Quantity</span>
             </div>
-            <div>
-                <img src="Images/carloshelmet.jpg" width="100">
-                <span>Helmet</span>
-                &lt;&gt;
-                <span>$60.99</span>
-                &lt;&gt;
-                <input type="number" value="2">
-                <button role="button">Remove</button>
+            <div class="cart-items">
+                <div class="cartrow">
+                    <div class="cartitem cartcolumn">
+                        <img class="cartitem-image" src="Images/album1.jpg" width="100">
+                        <span class="cartitem-title">Album 1</span>
+                    </div>               
+                    <span class="cartprice cartcolumn">$12.99</span>
+                    <div class="cartquantity cartcolumn">
+                        <input class="cartquantity-input" type="number" value="1">
+                        <button class="btn btn-danger" role="button">Remove</button>
+                    </div>
+                </div>
+                <div class="cartrow">
+                    <div class="cartitem cartcolumn">
+                        <img class="cartitem-image" src="Images/carloshelmet.jpg" width="100">
+                        <span class="cartitem-title">Helmet</span>
+                    </div>
+                    <span class="cartprice cartcolumn">$60.99</span>
+                    <div class="cartquantity cartcolumn">
+                        <input class="cartquantity-input" type="number" value="2">
+                        <button class="btn btn-danger" role="button">Remove</button>
+                    </div>
+                </div>
             </div>
-            <hr>
             <div>
                 <strong>Total</strong>
                 <span>$73.00</span>
                 <button role="button">Purchase</button>
             </div>
         </section>
-        <footer>
-            <h3>BTR Socials</h3>
-            <ul>
+        <footer class="mainfooter">
+            <div class="container mainfooter-container">
+            <h3 class="bandname">BTR Socials</h3>
+            <ul class="nav footernav">
                 <li><a href="https://www.youtube.com/channel/UCrX2OMYTBcodUKQMBLfMrJQ" target="_blank"><img src="Images/YT.png" width="50"></a></li>
                 <li><a href="https://open.spotify.com/artist/0GWCNkPi54upO9WLlwjAHd" target="_blank"><img src="Images/Spotify.jpg" width="50"></a></li>
                 <li><a href="https://www.instagram.com/bigtimerush/?hl=en" target="_blank"><img src="Images/insta.jpg" width="50"></a></li>
             </ul>
+            </div>
         </footer>
     </body>
 </html>

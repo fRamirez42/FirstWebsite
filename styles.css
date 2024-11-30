@@ -198,3 +198,116 @@ html, body{
 .btnprimary:hover{
     background-color: #2D9CDB;
 }
+
+.shopitem{
+    margin: 30px;
+}
+
+.shopitem-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shopitem-image{
+    width: 250px;
+}
+
+.shopitem-details{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shopitem-price{
+    flex-grow: 1;
+    color: #333;
+}
+
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cartheader{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cartcolumn{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cartrow{
+    display: flex;
+}
+
+.cartitem{
+    width: 45%;
+}
+
+.cartprice{
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cartquantity{
+    width: 35%;
+}
+
+.cartitem-title{
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cartitem-image{
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger{
+    color: white;
+    background-color: #eb5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color: #cc4c4c;
+}
+
+.cartquantity-input{
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cartrow:last-child{
+    border-bottom: 1px solid black;
+}
+
+.cartrow:last-child .cartcolumn{
+    border: none;
+}
