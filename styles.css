@@ -186,3 +186,15 @@ html, body{
 .tourbtn{
     max-width: 19%;
 }
+
+.btnprimary{
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btnprimary:hover{
+    background-color: #2D9CDB;
+}
